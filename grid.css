@@ -1,7 +1,9 @@
 /**
-*** ZACH COLE
-*** (C) 2016
+*** SIMPLE GRID
+*** (C) ZACH COLE 2016
 **/
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
 
 /* UNIVERSAL */
 
@@ -18,7 +20,7 @@ body {
 /* ROOT FONT STYLES */
 
 * {
-  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-family: 'Lato', Helvetica, sans-serif;
   color: #333447;
 }
 
