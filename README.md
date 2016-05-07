@@ -15,5 +15,5 @@ Learn more and see code samples at: http://simplegrid.io
 
 ## License
 
-    Copyright 2016 Zach Cole
+    Open Source under MIT License
 
