@@ -15,6 +15,7 @@ body {
   padding: 0;
   left: 0;
   top: 0;
+  font-size: 100%;
 }
 
 /* ROOT FONT STYLES */
@@ -102,8 +103,8 @@ p {
 
 .row [class^="col"] {
   float: left;
-  margin: 8px 2%;
-  min-height: 2px;
+  margin: 0.5rem 2%;
+  min-height: 0.125rem;
 }
 
 .col-1,
@@ -179,13 +180,13 @@ p {
   display: none;
 }
 
-@media only screen and (min-width: 540px) {
+@media only screen and (min-width: 33.75em) {  /* 540px */
   .container {
     width: 80%;
   }
 }
 
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 45em) {  /* 720px */
   .col-1 {
     width: 4.33%;
   }
@@ -239,9 +240,9 @@ p {
   }
 }
 
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 60em) { /* 960px */
   .container {
     width: 75%;
-    max-width: 960px;
+    max-width: 60rem;
   }
 }
