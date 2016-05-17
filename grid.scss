@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+
+// fonts
+$font-family: 'Lato', Helvetica, sans-serif;
+$font-weight-light: 200;
+$font-weight-regular: 400;
+$font-weight-heavy: 700;
+
+// colors
+$primary: #FBCED1;
+$border-color: #FE7880;
+
+// grid
+$grid-spacing: 4%;
+$width: 96%;
+
+
+* {
+  font-family: $font-family ;
+  color: #333447;
+  line-height: 1.5;
+}
+.row {
+  position: relative;
+  width: 100%;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+//----- Columns (Automatic)
+.col-1   { width:($width / 12) - ($grid-spacing * 11 / 12); }
+.col-2   { width:($width / 6) - ($grid-spacing * 10 / 12); }
+.col-3   { width:($width / 4) - ($grid-spacing * 9 / 12); }
+.col-4   { width:($width / 3) - ($grid-spacing * 8 / 12); }
+.col-5   { width:($width / 2.4) - ($grid-spacing * 7 / 12); }
+.col-6   { width:($width / 2) - ($grid-spacing * 6 / 12); }
+.col-7   { width:($width / 1.714285714285714) - ($grid-spacing * 5 / 12); }
+.col-8   { width:($width / 1.5) - ($grid-spacing * 4 / 12); }
+.col-9   { width:($width / 1.333333333333333) - ($grid-spacing * 3 / 12); }
+.col-10  { width:($width / 1.2) - ($grid-spacing * 2 / 12); }
+.col-11  { width:($width / 1.090909090909091) - ($grid-spacing * 1 / 12); }
+.col-12  { width:$width; }
+
+
+[class^="col-"] {
+    float:left;
+    margin:8px 2%;
+    box-sizing:border-box;
+    background: $primary;
+    border: 1px solid $border-color;
+    border-radius: 4px;
+    text-align: center;
+    &:last-child {
+        margin-right:0%;
+    }
+}
+
+//----- font
+.font-light {
+  font-weight: $font-weight-light;
+}
+
+.font-regular {
+  font-weight: $font-weight-regular;
+}
+
+.font-heavy {
+  font-weight: $font-weight-heavy;
+}
+
+.ell {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.break-word { word-wrap: break-word; }
+.no-wrap    { white-space: nowrap; }
+
+
+// utilities
+.f-left {
+  float: left;
+}
+.f-right {
+  float: right;
+}
+.clearfix {
+  display: block;
+}
+.hidden {
+  visibility: hidden;
+}
