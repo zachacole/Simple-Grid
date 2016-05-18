@@ -13,6 +13,8 @@ To define your column width, declare how many columns you want your content to t
 
 If you don’t want columns to expand on mobile devices and small screens, simply add -sm to the end of your column class name. For example, if you want to have two blocks of content floating side-by-side on small screens, each would be given the class name .col-6-sm.
 
+Update: Grid styles are now available in SASS/SCSS. Hooray! Thanks to [shankariyerr](https://github.com/shankariyerr/) for contributing as well.
+
 Learn more and see code samples at: http://simplegrid.io
 
 ## License
