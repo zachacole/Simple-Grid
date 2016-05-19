@@ -124,9 +124,9 @@ $breakpoint-large: 60em; // 960px
 }
 
 .row::after {
-	content: "";
-	display: table;
-	clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .col-1,
