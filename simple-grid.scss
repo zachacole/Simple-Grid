@@ -88,7 +88,8 @@ p {
 
 .center {
   text-align: center;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .justify {
@@ -109,7 +110,8 @@ $breakpoint-large: 60em; // 960px
 
 .container {
   width: 90%;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .row {
