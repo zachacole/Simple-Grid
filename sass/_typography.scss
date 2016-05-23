@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+// fonts
+$font-family: 'Lato', Helvetica, sans-serif;
+$font-weight-light: 200;
+$font-weight-regular: 400;
+$font-weight-heavy: 700;
+$line-height: 1.5;
+
+* {
+  font-family: $font-family ;
+  color: #333447;
+  line-height: $line-height;
+}
+
+/* TYPOGRAPHY */
+$start: 2.5rem;
+@each $h in h1, h2, h3, h4, h5, h6{
+    #{$h} {
+      font-size: $start;
+      }
+
+      $start: $start - 0.125;
+  }
+
+p {
+  font-size: 1.125rem;
+  font-weight: 200;
+  line-height: 1.8;
+}
+
+.font-light {
+  font-weight: $font-weight-light;
+}
+
+.font-regular {
+  font-weight: $font-weight-regular;
+}
+
+.font-heavy {
+  font-weight: $font-weight-heavy;
+}
+
+.ell {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.break-word { word-wrap: break-word; }
+.no-wrap    { white-space: nowrap; }
