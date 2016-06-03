@@ -1,0 +1,26 @@
+{
+	"name": "simple-grid",
+	"description": "A lightweight, responsive CSS grid",
+	"dependencies": {},
+	"keywords": [
+		"grid",
+		"css",
+		"responsive"
+	],
+	"authors": [
+		{
+			"name": "Zach Cole",
+			"url": "http://zcole.me/",
+			"email": "zach.a.cole@gmail.com"
+		}
+	],
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://www.opensource.org/licenses/mit-license.php"
+		}
+	],
+	"homepage": "https://github.com/zachacole/Simple-Grid",
+	"main": "simple-grid.css",
+	"ignore": []
+}
