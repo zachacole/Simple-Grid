@@ -1,0 +1,173 @@
+// grid
+
+$container_width: 90% !default;
+$width: 96% !default;
+$gutter: 4% !default;
+$breakpoint-small: 33.75em !default; // 540px
+$breakpoint-med: 45em !default; // 720px
+$breakpoint-large: 60em !default; // 960px
+
+.hidden-sm {
+    display: none;
+}
+
+.container {
+    width: $container_width;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media only screen and (min-width: $breakpoint-small) {
+        width: 80%;
+    }
+
+    @media only screen and (min-width: $breakpoint-large) {
+        width: 75%;
+        max-width: 60rem;
+    }
+}
+
+.row {
+    position: relative;
+    width: 100%;
+}
+
+.row {
+    position: relative;
+    width: 100%;
+
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .col-1, .col-1-sm,
+    .col-2, .col-2-sm,
+    .col-3, .col-3-sm,
+    .col-4, .col-4-sm,
+    .col-5, .col-5-sm,
+    .col-6, .col-6-sm,
+    .col-7, .col-7-sm,
+    .col-8, .col-8-sm,
+    .col-9, .col-9-sm,
+    .col-10, .col-10-sm,
+    .col-11, .col-11-sm,
+    .col-12, .col-12-sm{
+        float: left;
+        margin: 0.5rem 2%;
+        min-height: 0.125rem;
+    }
+
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+    width: $width;
+}
+
+.col-1-sm {
+    width: ($width / 12) - ($gutter * 11 / 12);
+}
+
+.col-2-sm {
+    width: ($width / 6) - ($gutter * 10 / 12);
+}
+
+.col-3-sm {
+    width: ($width / 4) - ($gutter * 9 / 12);
+}
+
+.col-4-sm {
+    width: ($width / 3) - ($gutter * 8 / 12);
+}
+
+.col-5-sm {
+    width: ($width / (12 / 5)) - ($gutter * 7 / 12);
+}
+
+.col-6-sm {
+    width: ($width / 2) - ($gutter * 6 / 12);
+}
+
+.col-7-sm {
+    width: ($width / (12 / 7)) - ($gutter * 5 / 12);
+}
+
+.col-8-sm {
+    width: ($width / (12 / 8)) - ($gutter * 4 / 12);
+}
+
+.col-9-sm {
+    width: ($width / (12 / 9)) - ($gutter * 3 / 12);
+}
+
+.col-10-sm {
+    width: ($width / (12 / 10)) - ($gutter * 2 / 12);
+}
+
+.col-11-sm {
+    width: ($width / (12 / 11)) - ($gutter * 1 / 12);
+}
+
+.col-12-sm {
+    width: $width;
+}
+
+@media only screen and (min-width: $breakpoint-med) {
+    .col-1 {
+        width: ($width / 12) - ($gutter * 11 / 12);
+    }
+    .col-2 {
+        width: ($width / 6) - ($gutter * 10 / 12);
+    }
+    .col-3 {
+        width: ($width / 4) - ($gutter * 9 / 12);
+    }
+    .col-4 {
+        width: ($width / 3) - ($gutter * 8 / 12);
+    }
+    .col-5 {
+        width: ($width / (12 / 5)) - ($gutter * 7 / 12);
+    }
+    .col-6 {
+        width: ($width / 2) - ($gutter * 6 / 12);
+    }
+    .col-7 {
+        width: ($width / (12 / 7)) - ($gutter * 5 / 12);
+    }
+    .col-8 {
+        width: ($width / (12 / 8)) - ($gutter * 4 / 12);
+    }
+    .col-9 {
+        width: ($width / (12 / 9)) - ($gutter * 3 / 12);
+    }
+    .col-10 {
+        width: ($width / (12 / 10)) - ($gutter * 2 / 12);
+    }
+    .col-11 {
+        width: ($width / (12 / 11)) - ($gutter * 1 / 12);
+    }
+    .col-12 {
+        width: $width;
+    }
+
+    .hidden-sm {
+        display: block;
+    }
+}
