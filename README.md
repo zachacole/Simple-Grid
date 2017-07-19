@@ -15,6 +15,24 @@ If you don’t want columns to expand on mobile devices and small screens, simpl
 
 Update: Grid styles are now available in SASS/SCSS. Hooray! Thanks to [shankariyerr](https://github.com/shankariyerr/) for contributing as well.
 
+## Basic example
+```html
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <!-- This content will take up 3/12 (or 1/4) of the container -->
+        </div>
+        <div class="col-3">
+          <!-- This content will take up 3/12 (or 1/4) of the container -->
+        </div>
+        <div class="col-6">
+          <!-- This content will take up 6/12 (or 1/2) of the container -->
+        </div>
+      </div>
+    </div>
+
+```
+
 Learn more and see code samples at: http://simplegrid.io
 
 ## License
