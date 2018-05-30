@@ -1,7 +1,12 @@
 # Simple Grid
 A lightweight, responsive CSS grid  
 
-Developed by Zach Cole
+Based by Zach Cole developer
+
+## Bower install
+```shell
+    bower install my-simplegrid
+```
 
 ## Simple Grid and Simple Code
 
