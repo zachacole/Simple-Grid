@@ -1,8 +1,8 @@
 language: ruby
 
 rvm:
-            - 2.2
+            - 2.2.7
 install: gem install sass
 script:
-        - sass source/simple-grid.scss:dist/simple-grid.css --style expanded
+        - compile
 
