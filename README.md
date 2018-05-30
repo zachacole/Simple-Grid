@@ -3,8 +3,6 @@ A lightweight, responsive CSS grid
 
 Based by Zach Cole developer
 
-
-
 ## Bower install
 ```shell
     bower install my-simplegrid
