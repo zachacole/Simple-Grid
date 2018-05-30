@@ -4,5 +4,5 @@ rvm:
             - 2.2.7
 install: gem install sass
 script:
-        - compile
+        - ./compile
 
