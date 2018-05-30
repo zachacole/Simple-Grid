@@ -1,0 +1,23 @@
+{
+  "name": "Simple-Grid",
+  "homepage": "https://github.com/alegorico/Simple-Grid",
+  "authors": [
+    "Alejandro G. <mierdeneitor@gmail.com>",
+    "Zach Cole <zach.a.cole@gmail.com>"
+  ],
+  "description": "A simple, lightweight CSS grid",
+  "main": "dist/simple-grid.css",
+  "keywords": [
+    "grid",
+    "css"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "source"
+  ]
+}
