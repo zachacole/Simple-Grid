@@ -3,14 +3,22 @@ A lightweight, responsive CSS grid
 
 Based by [Zach Cole](http://simplegrid.io) development
 
-## Bower install
+## bower, yarn, npm
 ```shell
     bower install my-simplegrid
+```    
+
+```shell
+    yarn add my-simplegrid
 ```
 
-## Simple Grid and Simple Code
+```shell
+    npm i my-simplegrid
+```
 
-Simple Grid is a mobile-first 12-column CSS grid system to make developing responsive websites easy and fast.
+## My Simple Grid and Simple Code
+
+My Simple Grid is a mobile-first 12-column CSS grid system to make developing responsive websites easy and fast.
 
 All the code you need is simple and familiar. A parent container class contains the grid. Within the container are rows. Row classes denote rows of content, which can be filled with up to 12 columns. Columns must be nested within a row. 
 

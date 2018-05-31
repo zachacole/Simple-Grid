@@ -1,0 +1,10 @@
+{
+  "name": "my-simplegrid",
+  "version": "1.0.0",
+  "description": "A simple, lightweight CSS grid",
+  "main": "dist/simple-grid.css",
+  "keywords": ["grid", "css", "responsive" ],
+  "repository": "https://github.com/alegorico/my-simplegrid.git",
+  "author": "Alejandro G. <mierdeneitor@gmail.com>",
+  "license": "MIT"
+}
