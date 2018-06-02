@@ -26,8 +26,8 @@ If you don’t want columns to expand on mobile devices and small screens, simpl
 
 ```html
 
-<!-- cdn example -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/my-simplegrid@1.0.0,npm/my-simplegrid@1.0.0/dist/simple-grid.css">
+<!-- example -->
+<link rel="stylesheet" href="dist/simple-grid.min.css" />
 
     <!-- code example -->
     <div class="container">
