@@ -1,4 +1,4 @@
-# My Simple Grid [![Build Status](https://travis-ci.org/alegorico/my-simplegrid.svg?branch=master)](https://travis-ci.org/alegorico/my-simplegrid)
+# My Simple Grid [![Build Status](https://travis-ci.org/alegorico/my-simplegrid.svg?branch=master)](https://travis-ci.org/alegorico/my-simplegrid) [![](https://data.jsdelivr.com/v1/package/npm/my-simplegrid/badge)](https://www.jsdelivr.com/package/npm/my-simplegrid)
 A lightweight, responsive CSS grid  
 
 Based by [Zach Cole](http://simplegrid.io) development
@@ -10,10 +10,8 @@ Based by [Zach Cole](http://simplegrid.io) development
 
 ```shell
     yarn add my-simplegrid
-```
-
-```shell
-    npm i my-simplegrid
+    # or
+    # npm i my-simplegrid
 ```
 
 ## My Simple Grid and Simple Code
@@ -25,6 +23,28 @@ All the code you need is simple and familiar. A parent container class contains 
 To define your column width, declare how many columns you want your content to take up on desktop and large screens. For example, if your content should take up 6 out of 12 columns (or half the container), your class name will be .col-6.
 
 If you don’t want columns to expand on mobile devices and small screens, simply add -sm to the end of your column class name. For example, if you want to have two blocks of content floating side-by-side on small screens, each would be given the class name .col-6-sm.
+
+```html
+
+<!-- cdn example -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/my-simplegrid@1.0.0,npm/my-simplegrid@1.0.0/dist/simple-grid.css">
+
+    <!-- code example -->
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <!-- This content will take up 3/12 (or 1/4) of the container -->
+        </div>
+        <div class="col-3">
+          <!-- This content will take up 3/12 (or 1/4) of the container -->
+        </div>
+        <div class="col-6">
+          <!-- This content will take up 6/12 (or 1/2) of the container -->
+        </div>
+      </div>
+    </div>
+
+```
 
 ## License
 
