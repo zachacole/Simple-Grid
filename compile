@@ -1,6 +1,6 @@
 #!/bin/sh
 
-sass --sourcemap=none source/simple-grid.scss:dist/simple-grid.css --style expanded 
-sass --sourcemap=none source/simple-grid.scss:dist/simple-grid.min.css --style compressed
+sass --sourcemap=none source/simple-grid.scss:dist/my-simple-grid.css --style expanded 
+sass --sourcemap=none source/simple-grid.scss:dist/my-simple-grid.min.css --style compressed
 
 exit 0
