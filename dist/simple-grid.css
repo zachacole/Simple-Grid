@@ -1,12 +1,5 @@
-/**
-*** SIMPLE GRID
-*** (C) ZACH COLE 2016
-**/
-
+@import "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css";
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
-
-/* UNIVERSAL */
-
 html,
 body {
   height: 100%;
@@ -18,15 +11,11 @@ body {
   font-size: 100%;
 }
 
-/* ROOT FONT STYLES */
-
 * {
-  font-family: 'Lato', Helvetica, sans-serif;
+  font-family: "Lato", Helvetica, sans-serif;
   color: #333447;
   line-height: 1.5;
 }
-
-/* TYPOGRAPHY */
 
 h1 {
   font-size: 2.5rem;
@@ -70,8 +59,6 @@ p {
   font-weight: 700;
 }
 
-/* POSITIONING */
-
 .left {
   text-align: left;
 }
@@ -90,12 +77,25 @@ p {
   text-align: justify;
 }
 
-/* ==== GRID SYSTEM ==== */
+.hidden-sm {
+  display: none;
+}
 
 .container {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+}
+@media only screen and (min-width: 33.75em) {
+  .container {
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 60em) {
+  .container {
+    width: 75%;
+    max-width: 60rem;
+  }
 }
 
 .row {
@@ -107,6 +107,12 @@ p {
   float: left;
   margin: 0.5rem 2%;
   min-height: 0.125rem;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .col-1,
@@ -125,11 +131,11 @@ p {
 }
 
 .col-1-sm {
-  width: 4.33%;
+  width: 4.3333333333%;
 }
 
 .col-2-sm {
-  width: 12.66%;
+  width: 12.6666666667%;
 }
 
 .col-3-sm {
@@ -137,11 +143,11 @@ p {
 }
 
 .col-4-sm {
-  width: 29.33%;
+  width: 29.3333333333%;
 }
 
 .col-5-sm {
-  width: 37.66%;
+  width: 37.6666666667%;
 }
 
 .col-6-sm {
@@ -149,11 +155,11 @@ p {
 }
 
 .col-7-sm {
-  width: 54.33%;
+  width: 54.3333333333%;
 }
 
 .col-8-sm {
-  width: 62.66%;
+  width: 62.6666666667%;
 }
 
 .col-9-sm {
@@ -161,40 +167,24 @@ p {
 }
 
 .col-10-sm {
-  width: 79.33%;
+  width: 79.3333333333%;
 }
 
 .col-11-sm {
-  width: 87.66%;
+  width: 87.6666666667%;
 }
 
 .col-12-sm {
   width: 96%;
 }
 
-.row::after {
-	content: "";
-	display: table;
-	clear: both;
-}
-
-.hidden-sm {
-  display: none;
-}
-
-@media only screen and (min-width: 33.75em) {  /* 540px */
-  .container {
-    width: 80%;
-  }
-}
-
-@media only screen and (min-width: 45em) {  /* 720px */
+@media only screen and (min-width: 45em) {
   .col-1 {
-    width: 4.33%;
+    width: 4.3333333333%;
   }
 
   .col-2 {
-    width: 12.66%;
+    width: 12.6666666667%;
   }
 
   .col-3 {
@@ -202,11 +192,11 @@ p {
   }
 
   .col-4 {
-    width: 29.33%;
+    width: 29.3333333333%;
   }
 
   .col-5 {
-    width: 37.66%;
+    width: 37.6666666667%;
   }
 
   .col-6 {
@@ -214,11 +204,11 @@ p {
   }
 
   .col-7 {
-    width: 54.33%;
+    width: 54.3333333333%;
   }
 
   .col-8 {
-    width: 62.66%;
+    width: 62.6666666667%;
   }
 
   .col-9 {
@@ -226,11 +216,11 @@ p {
   }
 
   .col-10 {
-    width: 79.33%;
+    width: 79.3333333333%;
   }
 
   .col-11 {
-    width: 87.66%;
+    width: 87.6666666667%;
   }
 
   .col-12 {
@@ -239,12 +229,5 @@ p {
 
   .hidden-sm {
     display: block;
-  }
-}
-
-@media only screen and (min-width: 60em) { /* 960px */
-  .container {
-    width: 75%;
-    max-width: 60rem;
   }
 }
