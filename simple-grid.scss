@@ -128,7 +128,7 @@ $breakpoint-large: 60em; // 960px
   width: 100%;
 }
 
-.row [class^="col"] {
+.row [class^="col-"] {
   float: left;
   margin: 0.5rem 2%;
   min-height: 0.125rem;
