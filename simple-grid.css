@@ -240,6 +240,10 @@ p {
   .hidden-sm {
     display: block;
   }
+
+  .hidden-lm {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 60em) { /* 960px */
