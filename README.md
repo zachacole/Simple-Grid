@@ -1,11 +1,11 @@
-# Simple Grid
+# Simple Grid+
 A lightweight, responsive CSS grid  
 
 Developed by Zach Cole
 
-## Simple Grid and Simple Code
+## Simple Grid+ and Simple Code
 
-Simple Grid is a mobile-first 12-column CSS grid system to make developing responsive websites easy and fast.
+Simple Grid+ is a mobile-first 12-column CSS grid system to make developing responsive websites easy and fast.
 
 All the code you need is simple and familiar. A parent container class contains the grid. Within the container are rows. Row classes denote rows of content, which can be filled with up to 12 columns. Columns must be nested within a row. 
 
